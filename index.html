@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div>
+        <form id="gridSizeForm">
+            <input type="number" name="Grid Size Input" min="1" max="100">
+            <input type="submit" value="Generate Grid">
+        </form>
+    </div>
+    <div id="modeButtons">
+        <button id="penMode">Pen Mode</button>
+        <button id="rainbowMode"> Rainbow Mode</button>
+        <button id="eraserMode"> Eraser Mode</button>
+    </div>
+
+    <div id="canvas" class="blank">
+        Enter your grid size to get started!
+    </div>
+</body>
+</html>
